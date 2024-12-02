@@ -1,1 +1,109 @@
-/*Schrijf hier jouw css*/
+/*1. Algemeen*/
+
+html{
+    font-size: 24px;
+}
+
+body{
+    background-color: #F2F3D9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+/*2. NAV*/
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100vw;
+    background-color: #030027;
+    color: white;
+    align-content: center;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-right: 50px;
+    gap: 30px;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h4{
+    margin-left: 60px;
+}
+
+/*3. Header*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    flex-basis: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.hoofdtekst{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+h1{
+    margin-bottom: 0px;
+    font-size: 24px;
+}
+
+h3{
+    margin-top: 0;
+    font-size: 18px;
+}
+
+/*4. Main*/
+
+.tekstveld{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.tekstblok {
+    background-color: #C16E70;
+    height:350px;
+    flex-basis: 280px;
+    text-align: center;
+    align-content: flex-end;
+    font-size: 0.8rem;
+    border-radius:5px;
+}
+
+.tekstblok.eerste{
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+.tekstblok.derde{
+    margin-left: 30px;
+    margin-right: 50px;
+
+}
